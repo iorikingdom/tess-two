@@ -1,3 +1,12 @@
+# Git Init 
+
+```
+git submodule init
+git submodule update
+cd tess-two
+ndk-build
+```
+
 # tess-two
 
 A fork of Tesseract Tools for Android 
