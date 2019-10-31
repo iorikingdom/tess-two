@@ -323,9 +323,9 @@ public class TessBaseAPI {
         if (!datapathFile.exists())
             throw new IllegalArgumentException("Data path does not exist!");
 
-        File tessdata = new File(datapath + "tessdata");
-        if (!tessdata.exists() || !tessdata.isDirectory())
-            throw new IllegalArgumentException("Data path must contain subfolder tessdata!");
+        //File tessdata = new File(datapath + "tessdata");
+        //if (!tessdata.exists() || !tessdata.isDirectory())
+        //    throw new IllegalArgumentException("Data path must contain subfolder tessdata!");
 
         //noinspection deprecation
         if (ocrEngineMode != OEM_CUBE_ONLY) {
